@@ -1,10 +1,10 @@
 
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { data } from '../constants';
 import MainBanner from '../components/MainBanner';
 import { images } from '../constants'
-import PromotionCard from '../components/PromotionCard';
+import { BiArrowBack } from 'react-icons/bi';
 
 const PromotionDetails = () => {
     const { id } = useParams();
@@ -18,6 +18,7 @@ const PromotionDetails = () => {
     return (
         <div className='flex flex-col gap-10'>
             <MainBanner desktop={images.leomourabanner} mobile={images.leomourabannermobile} />
+            <Link to={"/"}><span className='flex items-center gap-2 text-gray-100 ml-10'><BiArrowBack className='text-xl' />Voltar</span></Link>
             <div className='w-full px-5 sm:px-10 lg:px-20 flex flex-col items-center lg:flex-row gap-10 lg:items-center justify-center mt-10'>
                 <img src={promotion.image} alt="promoImage" className='w-[550px] min-w-[320px] rounded-lg' />
                 <div className='flex flex-col gap-6 max-w-[550px] border-r border-r-betpink border-b border-b-betpink px-6 border-t border-t-betpink py-6 border-l border-l-betpink lg:border-l-0'>
