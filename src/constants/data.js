@@ -3,25 +3,6 @@ import images from "./images";
 const cassinoCardData = [
   {
     id: 1,
-    image: images.arraiaSpaceman,
-    title: "Arraiá Spaceman",
-    description: "São R$80.000 em prêmios, não fique de fora! Vem com a gente.",
-    termsTitle: "Arraiá do Spaceman",
-    termsUse: `A promoção “Arraiá do Spaceman” (a “promoção”) consiste em quatro (4) torneios de um (1) dia de duração (cada um deles é um “Torneio Diário do Arraiá do Spaceman”) e quatro (4) prêmios diários de um (1) dia de duração (cada um deles é um “Prêmio Diário do Arraiá do Spaceman”), que ocorrerão diariamente entre 21 de junho, às 00h01 GMT-3, e 24 de junho de 2024, às 23h59 GMT-3.
-      Para participar, o jogador deve abrir qualquer um dos jogos Crash participantes e se juntar à promoção.
-      Para ser elegível para participar de um Torneio Diário do Arraiá do Spaceman ou Prêmios Diários do Arraiá do Spaceman, o jogador deverá fazer suas apostas com dinheiro real sob as seguintes condições:`,
-    req: [
-      "Todos os giros com a aposta mínima exigida de R$ 0,75 nos jogos participantes serão considerados elegíveis para cada promoção (doravante denominada “aposta qualificada”).",
-      "Somente as primeiras quinhentas (500) apostas qualificadas por dia, dentro de cada Torneio Diário do Arraiá do Spaceman (o “limite de apostas qualificadas”), serão consideradas elegíveis. O Limite de apostas qualificadas também será aplicável para os Prêmios Diários do Arraiá do Spaceman. Todas as apostas qualificadas feitas após atingir esse limite não serão contabilizadas para cada Prêmio Diário do Arraiá do Spaceman",
-      "Se o valor de aposta mínima não estiver disponível, será arredondada para o próximo valor de aposta mais alto disponível no jogo*.",
-      `*Exemplo apenas para fins ilustrativos 
-        A aposta qualificada para a Promoção é de R$ 0,75.
-        Se R$ 0,75 não estiver disponível no jogo, a próxima aposta maior será considerada qualificada, por exemplo, R$ 1.`,
-    ],
-  },
-
-  {
-    id: 2,
     image: images.bonusAviatrix,
     title: "Bonus Aviatrix",
     description: "Cadastre-se e ganhe 20 rodadas grátis.",
@@ -36,7 +17,7 @@ const cassinoCardData = [
   },
 
   {
-    id: 3,
+    id: 2,
     image: images.bonusCassino,
     title: "Cassino em Dobro",
     description: "Ganhe um bônus de 100% no seu depósito de até R$500",
@@ -55,7 +36,7 @@ const cassinoCardData = [
   },
 
   {
-    id: 4,
+    id: 3,
     image: images.cassinoCashback,
     title: "Cassino com Cashback",
     description: "O fim de semana todo com cashback de 25%.",
@@ -71,7 +52,7 @@ const cassinoCardData = [
 
 const sportsCardData = [
   {
-    id: 5,
+    id: 4,
     image: images.sportsbonus,
     title: "Bônus em Esportes",
     description: "Ganhe um bônus de 100% até R$500 em esportes.",
@@ -87,6 +68,23 @@ const sportsCardData = [
       "Para utilizar o saldo bônus, é necessário primeiro utilizar o saldo real.",
       "Após completar o rollover, o máximo transferível para saldo real é de R$ 200,00. Qualquer valor excedente será removido.",
       "Ao solicitar o saque do saldo, o valor do bônus concedido será removido da conta.",
+    ],
+  },
+  {
+    id: 5,
+    image: images.bancabonus,
+    title: "Oferta Especial",
+    description: "Ganhe R$5 de banca mais 100% de bônus em esportes.",
+    termsTitle: "Ativação do Bônus de Cadastro",
+    termsUse: "Ganhe R$5 de banca mais 100% de bônus em esportes.",
+    req: [
+      "O bônus de cadastro será concedido uma única vez por CPF cadastrado, creditando R$ 5,00 após o cadastro.",
+      "O valor só pode ser utilizado para apostas esportivas, exceto em eventos especiais como Super Odds e Criar Aposta.",
+      "A aposta mínima permitida é de R$ 1,00 e máxima de R$ 10,00.",
+      "O valor possui rollover de 50 vezes.",
+      "A odd mínima aceita é de 2.0.",
+      "O bônus é válido por 7 dias a partir da data de cadastro. Após este prazo, o saldo bônus remanescente será removido.",
+      "Ao final do rollover, o valor máximo convertível para saldo real é de R$ 10,00.",
     ],
   },
 ];

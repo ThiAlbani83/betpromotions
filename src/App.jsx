@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import PromotionDetails from "./pages/PromotionDetails"
 import Footer from "./components/Footer"
+import ScrollToTop from "./components/ScrollToTop"
 
 
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar />
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/promotion/:id" element={<PromotionDetails />} />

@@ -1,9 +1,9 @@
 
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { data } from '../constants';
+import { data, images } from '../constants';
 import MainBanner from '../components/MainBanner';
-import { images } from '../constants'
+import VideoBanner from '../components/VideoBanner';
 import { BiArrowBack } from 'react-icons/bi';
 
 const PromotionDetails = () => {
@@ -17,7 +17,7 @@ const PromotionDetails = () => {
 
     return (
         <div className='flex flex-col gap-10'>
-            <MainBanner desktop={images.leomourabanner} mobile={images.leomourabannermobile} />
+            <VideoBanner mobile={images.leomourabannermobile} />
             <Link to={"/"}><span className='flex items-center gap-2 text-gray-100 ml-10'><BiArrowBack className='text-xl' />Voltar</span></Link>
             <div className='w-full px-5 sm:px-10 lg:px-20 flex flex-col items-center lg:flex-row gap-10 lg:items-center justify-center mt-10'>
                 <img src={promotion.image} alt="promoImage" className='w-[550px] min-w-[320px] rounded-lg' />

@@ -10,6 +10,7 @@ import logobetfive from '../assets/logobetfive.png'
 import mobilebg from '../assets/mobilebg.png'
 import tabletbg from '../assets/tabletbg.png'
 import sportsbonus from '../assets/sportsbonus.png'
+import bancabonus from '../assets/bancaBonus.png'
 
 const images = {
     arraiaSpaceman,
@@ -24,6 +25,7 @@ const images = {
     mobilebg,
     tabletbg,
     sportsbonus,
+    bancabonus,
 }
 
 export default images;
