@@ -3,6 +3,20 @@ import images from "./images";
 const cassinoCardData = [
   {
     id: 1,
+    image: images.sorteio,
+    title: "Sorteio Betfive",
+    description: "Participe do nosso sorteio e a uma bola autografada por um dos maiores craques do Brasil.",
+    termsTitle: " Regras para participar",
+    termsUse: ` Para participar, siga os passos simples abaixo:`,
+    req: [
+      "Estar seguindo a Bet Five e Léo Moura.",
+      "Marcar três amigos.",
+      "Marcar três amigos.",
+      "E pronto, você já estará automaticamente participando dessa oportunidade inédita. Envia pra um amigo que ama futebol e gostaria de receber esse presente em casa!"
+    ],
+  },
+  {
+    id: 2,
     image: images.bonusAviatrix,
     title: "Bonus Aviatrix",
     description: "Cadastre-se e ganhe 20 rodadas grátis.",
@@ -17,10 +31,10 @@ const cassinoCardData = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: images.bonusCassino,
     title: "Cassino em Dobro",
-    description: "Ganhe um bônus de 100% no seu depósito de até R$500",
+    description: "Ganhe um bônus de 100% no seu depósito de até R$500.",
     termsTitle: "Ativação do Bônus de Cassino",
     termsUse:
       "Ao realizar o primeiro depósito, os usuários podem ativar o bônus de boas-vindas de cassino, recebendo um crédito adicional de até 100%.",
@@ -36,7 +50,7 @@ const cassinoCardData = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: images.cassinoCashback,
     title: "Cassino com Cashback",
     description: "O fim de semana todo com cashback de 25%.",
@@ -52,7 +66,7 @@ const cassinoCardData = [
 
 const sportsCardData = [
   {
-    id: 4,
+    id: 5,
     image: images.sportsbonus,
     title: "Bônus em Esportes",
     description: "Ganhe um bônus de 100% até R$500 em esportes.",
@@ -71,7 +85,7 @@ const sportsCardData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     image: images.bancabonus,
     title: "Oferta Especial",
     description: "Ganhe R$5 de banca mais 100% de bônus em esportes.",

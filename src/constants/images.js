@@ -11,6 +11,7 @@ import mobilebg from '../assets/mobilebg.png'
 import tabletbg from '../assets/tabletbg.png'
 import sportsbonus from '../assets/sportsbonus.png'
 import bancabonus from '../assets/bancaBonus.png'
+import sorteio from '../assets/sorteio.jpg'
 
 const images = {
     arraiaSpaceman,
@@ -26,6 +27,7 @@ const images = {
     tabletbg,
     sportsbonus,
     bancabonus,
+    sorteio
 }
 
 export default images;
