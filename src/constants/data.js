@@ -5,17 +5,18 @@ const cassinoCardData = [
     id: 1,
     image: images.sorteio,
     title: "Sorteio Betfive",
-    description: "Participe do nosso sorteio e a uma bola autografada por um dos maiores craques do Brasil.",
+    description:
+      "Participe do nosso sorteio e a uma bola autografada por um dos maiores craques do Brasil.",
     termsTitle: " Regras para participar",
     termsUse: ` Para participar, siga os passos simples abaixo:`,
     req: [
       "Estar seguindo a Bet Five e Léo Moura.",
       "Marcar três amigos.",
       "Marcar três amigos.",
-      "E pronto, você já estará automaticamente participando dessa oportunidade inédita. Envia pra um amigo que ama futebol e gostaria de receber esse presente em casa!"
+      "E pronto, você já estará automaticamente participando dessa oportunidade inédita. Envia pra um amigo que ama futebol e gostaria de receber esse presente em casa!",
     ],
   },
-  {
+/*   {
     id: 2,
     image: images.bonusAviatrix,
     title: "Bonus Aviatrix",
@@ -28,7 +29,7 @@ const cassinoCardData = [
       "Ao final das 20 rodadas, o usuário deverá realizar um RollOver de 35x o valor do prêmio acumulado para resgatar seu saldo.",
       "O prazo para conclusão da promoção é de 7 dias. Após este prazo o benefício será removido da conta",
     ],
-  },
+  }, */
 
   {
     id: 3,
@@ -84,7 +85,7 @@ const sportsCardData = [
       "Ao solicitar o saque do saldo, o valor do bônus concedido será removido da conta.",
     ],
   },
-  {
+  /* {
     id: 6,
     image: images.bancabonus,
     title: "Oferta Especial",
@@ -100,7 +101,7 @@ const sportsCardData = [
       "O bônus é válido por 7 dias a partir da data de cadastro. Após este prazo, o saldo bônus remanescente será removido.",
       "Ao final do rollover, o valor máximo convertível para saldo real é de R$ 10,00.",
     ],
-  },
+  }, */
 ];
 
 export default { cassinoCardData, sportsCardData };

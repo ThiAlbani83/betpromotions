@@ -27,7 +27,7 @@ const images = {
     tabletbg,
     sportsbonus,
     bancabonus,
-    sorteio
+    sorteio,
 }
 
 export default images;
