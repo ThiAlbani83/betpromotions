@@ -85,7 +85,7 @@ const sportsCardData = [
       "Ao solicitar o saque do saldo, o valor do bônus concedido será removido da conta.",
     ],
   },
-  /* {
+  {
     id: 6,
     image: images.bancabonus,
     title: "Oferta Especial",
@@ -101,7 +101,7 @@ const sportsCardData = [
       "O bônus é válido por 7 dias a partir da data de cadastro. Após este prazo, o saldo bônus remanescente será removido.",
       "Ao final do rollover, o valor máximo convertível para saldo real é de R$ 10,00.",
     ],
-  }, */
+  },
 ];
 
 export default { cassinoCardData, sportsCardData };
