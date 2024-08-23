@@ -1,7 +1,7 @@
 import images from "./images";
 
 const cassinoCardData = [
-  {
+  /* {
     id: 1,
     image: images.sorteio,
     title: "Sorteio Betfive",
@@ -15,7 +15,7 @@ const cassinoCardData = [
       "Marcar três amigos.",
       "E pronto, você já estará automaticamente participando dessa oportunidade inédita. Envia pra um amigo que ama futebol e gostaria de receber esse presente em casa!",
     ],
-  },
+  }, */
 /*   {
     id: 2,
     image: images.bonusAviatrix,
@@ -95,8 +95,8 @@ const sportsCardData = [
     req: [
       "O bônus de cadastro será concedido uma única vez por CPF cadastrado, creditando R$ 5,00 após o cadastro.",
       "O valor só pode ser utilizado para apostas esportivas, exceto em eventos especiais como Super Odds e Criar Aposta.",
-      "A aposta mínima permitida é de R$ 1,00 e máxima de R$ 10,00.",
-      "O valor possui rollover de 50 vezes.",
+      "A aposta mínima permitida é de R$ 1,00 e máxima de R$ 25,00.",
+      "O valor possui rollover de 100 vezes.",
       "A odd mínima aceita é de 2.0.",
       "O bônus é válido por 7 dias a partir da data de cadastro. Após este prazo, o saldo bônus remanescente será removido.",
       "Ao final do rollover, o valor máximo convertível para saldo real é de R$ 10,00.",
