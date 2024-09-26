@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Intercom from "@intercom/messenger-js-sdk";
 import Branca from "../assets/Branca.png";
 
@@ -10,25 +10,16 @@ const Home = () => {
     createdAt: "1704067200",
   };
 
-  useEffect(() => {
-    // Set the Intercom settings before initializing
-    window.intercomSettings = {
-      app_id: "km32apcw",
-      language_override: navigator.language || navigator.userLanguage, // Set language based on the user's browser language
-      user_id: user.id, // Pass user information if needed
-      name: user.name,
-      email: user.email,
-      created_at: user.createdAt, // Unix timestamp for when the user signed up
-    };
+  Intercom({
+    app_id: "km32apcw",
+    user_id: user.id, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
+    name: user.name, // IMPORTANT: Replace "user.name" with the variable you use to capture the user's name
+    email: user.email, // IMPORTANT: Replace "user.email" with the variable you use to capture the user's email
+    created_at: user.createdAt,
+    language_override: navigator.language || navigator.userLanguage, // IMPORTANT: Replace "user.createdAt" with the variable you use to capture the user's sign-up date in a Unix timestamp (in seconds) e.g. 1704067200
+  });
 
-    // Initialize Intercom with the settings defined in window.intercomSettings
-    Intercom("boot", window.intercomSettings);
-    
-    // Cleanup function to shutdown Intercom when the component unmounts
-    return () => {
-      Intercom("shutdown");
-    };
-  }, [user]);
+  
 
   return (
     <main className="flex flex-col gap-40">
