@@ -18,6 +18,11 @@ const Home = () => {
     created_at: user.createdAt, // IMPORTANT: Replace "user.createdAt" with the variable you use to capture the user's sign-up date in a Unix timestamp (in seconds) e.g. 1704067200
   });
 
+  window.intercomSettings = {
+    app_id: "km32apcw",
+    language_override: navigator.language || navigator.userLanguage // Usa o idioma do navegador
+  };
+
   return (
     <main className="flex flex-col gap-40">
       <div className="flex justify-center mt-60">
